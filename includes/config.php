@@ -1,6 +1,6 @@
 <?php
 require_once $_SERVER["DOCUMENT_ROOT"] . '/libraries/Medoo.php';
-if ($_SERVER['HTTP_HOST'] === 'crm.ontwikkeling') {
+if ($_SERVER['HTTP_HOST'] === 'dbemtpy.basiccrm.nl') {
     $db = array(
         'database_type' => 'mysql',
         'database_name' => 'basiccrm_main',
@@ -8,7 +8,7 @@ if ($_SERVER['HTTP_HOST'] === 'crm.ontwikkeling') {
         'username' => 'root',
         'password' => ''
     );
-} elseif ($_SERVER['HTTP_HOST'] === 'dev.profi-crm.nl ') {
+} elseif ($_SERVER['HTTP_HOST'] === 'dbemtpy.basiccrm.nl ') {
     $db = array(
         'database_type' => 'mysql',
         'database_name' => 'basiccrm_main',

@@ -130,7 +130,7 @@ if ($notificationsamount > 0) {
                 ";
                     if (isset($page)) {
                         if ($item['name'] === $page) {
-                            echo "<div class='col-2'><i class='fad fa-caret-right pl-2 text-{$item['color']}'></i></div>";
+                            echo "<div class='col-2'></div>";
                         }
                     }
                     echo "

@@ -320,15 +320,7 @@ CREATE TABLE `person_relations` (
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
--- Dumping data for table `person_relations`
---
 
-LOCK TABLES `person_relations` WRITE;
-/*!40000 ALTER TABLE `person_relations` DISABLE KEYS */;
-INSERT INTO `person_relations` VALUES (1,100,144,1),(2,153,76,1),(3,169,14,1),(4,159,189,1);
-/*!40000 ALTER TABLE `person_relations` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Table structure for table `persons`
