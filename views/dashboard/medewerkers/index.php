@@ -60,10 +60,6 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/views/dashboard/header.php';
                         <th scope="col">Plaatje</th>
                         <th scope="col">Email</th>
                         <th scope="col">Positie</th>
-                        <?php
-                        if ($user->data['role'] == 1) { ?>
-                            <th scope="col">Zichtbaar</th>
-                        <?php } ?>
                         <th scope="col">ID</th>
                     </tr>
                     </thead>
@@ -85,7 +81,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/views/dashboard/header.php';
         </div>
     </div>
 </div>
-<div class="bottom_notes">Profi-crm versie <?php $versions = new Versions();
+<div class="bottom_notes">BasicCRM versie <?php $versions = new Versions();
     echo $versions->findLatest()[0]['version']; ?>
     | <?php echo strftime("%e %B %Y", strtotime($versions->findLatest()[0]['date'])); ?>
     <a href="/change-log">Wat is er nieuw?</a></div>
@@ -114,11 +110,3 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/views/dashboard/header.php';
         }
     }
 </script>
-<style>
-    #searchEmployeeInput{
-        border-radius:20px;
-        padding:8px 16px;
-        border-color:#3da4f4;
-        border-width:4px;
-    }
-</style>

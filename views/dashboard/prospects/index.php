@@ -67,7 +67,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/views/dashboard/header.php';
                                 <div class="rounded row bg-light p-2 relation_search_box">
                                     <div class="col-12 py-2 px-4 search_item muted">
                                         <a class="row align-items-center">
-                                            <i class="fad fa-search text-primary search_icon"></i>
+                                            <i class="fad fa-search text-info search_icon"></i>
                                             <div class="pl-2 search_text">Typ om te zoeken</div>
                                         </a></div>
                                 </div>
@@ -242,7 +242,6 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/views/dashboard/header.php';
                         <th scope="col">KvK</th>
                         <th scope="col" id="status">Laatste activiteit <?php echo $statusicon; ?></i></th>
                         <th scope="col">Opvolg datum</th>
-                        <th scope="col">Acties</th>
                     </tr>
                     </thead>
                     <tbody class="prospects_table" id="<?php echo $table->currentpage; ?>">
@@ -263,7 +262,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/views/dashboard/header.php';
         </div>
     </div>
 </div>
-<div class="bottom_notes">Profi-crm versie <?php $versions = new Versions();
+<div class="bottom_notes">BasicCRM versie <?php $versions = new Versions();
     echo $versions->findLatest()[0]['version']; ?>
     | <?php echo strftime("%e %B %Y", strtotime($versions->findLatest()[0]['date'])); ?>
     <a href="/change-log">Wat is er nieuw?</a></div>
@@ -303,7 +302,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/views/dashboard/header.php';
                 from_date = url.searchParams.get('from_date')
             }
             var d = new Date();
-            fetch('https://profi-crm.nl/controllers/search/prospects_csv.php?city=' + city + '&from_date=' + from_date + '&to_date=' + to_date)
+            fetch('https://dbempty.basiccrm.nl/controllers/search/prospects_csv.php?city=' + city + '&from_date=' + from_date + '&to_date=' + to_date)
                 .then(resp => resp.blob())
                 .then(blob => {
                     const url = window.URL.createObjectURL(blob);
@@ -418,13 +417,13 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/views/dashboard/header.php';
     $('.relation_search').on("keyup input", function (e) {
         var defaultInput0 = '<div class="col-12 py-2 px-4 search_item muted">\n' +
             '                                                <a class="row align-items-center">\n' +
-            '                                                    <i class="fad fa-search text-primary search_icon"></i>\n' +
+            '                                                    <i class="fad fa-search text-info search_icon"></i>\n' +
             '                                                    <div class="pl-2 search_text">Typ om te zoeken</div>' +
             '                                                </a>\n' +
             '                                            </div>';
         var defaultInput1 = '<div class="col-12 py-2 px-4 search_item muted">\n' +
             '                                                <a class="row align-items-center">\n' +
-            '                                                    <i class="fad fa-search text-primary search_icon"></i>\n' +
+            '                                                    <i class="fad fa-search text-info search_icon"></i>\n' +
             '                                                    <div class="pl-2 search_text">Typ minimaal 2 tekens om te zoeken</div>' +
             '                                                </a>\n' +
             '                                            </div>';

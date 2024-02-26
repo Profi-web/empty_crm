@@ -284,7 +284,7 @@ foreach ($search as $activity) {
                                      } ?>">
                                     <div class="row justify-content-between px-3">
                                         <div>Contract</div>
-                                        <div><i class="fad fa-file-contract text-primary"></i></div>
+                                        <div><i class="fad fa-file-contract text-info"></i></div>
                                     </div>
                                 </div>
                             </div>

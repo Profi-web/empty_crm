@@ -52,7 +52,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/views/dashboard/header.php';
                 <div class="container-fluid  bg-light-second py-3 rounded-bottom">
                     <div class="row p-3">
                         <div class="col-12">
-                            <div class="text-primary pb-3">Informatie</div>
+                            <div class="text-info pb-3">Informatie</div>
                             <textarea rows="35" id="input_data"></textarea>
 
                         </div>
@@ -121,7 +121,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/views/dashboard/header.php';
                                                 <div class="rounded row bg-light p-2 relation_search_box">
                                                     <div class="col-12 py-2 px-4 search_item muted">
                                                         <a class="row align-items-center">
-                                                            <i class="fa fa-search text-primary search_icon"></i>
+                                                            <i class="fa fa-search text-info search_icon"></i>
                                                             <div class="pl-2 search_text">Typ om te zoeken</div>
                                                         </a></div>
                                                 </div>
@@ -267,13 +267,13 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/views/dashboard/header.php';
     $('.relation_search').on("keyup input", function () {
         var defaultInput0 = '<div class="col-12 py-2 px-4 search_item muted">\n' +
             '                                                <a class="row align-items-center">\n' +
-            '                                                    <i class="fa fa-search text-primary search_icon"></i>\n' +
+            '                                                    <i class="fa fa-search text-info search_icon"></i>\n' +
             '                                                    <div class="pl-2 search_text">Typ om te zoeken</div>' +
             '                                                </a>\n' +
             '                                            </div>';
         var defaultInput1 = '<div class="col-12 py-2 px-4 search_item muted">\n' +
             '                                                <a class="row align-items-center">\n' +
-            '                                                    <i class="fa fa-search text-primary search_icon"></i>\n' +
+            '                                                    <i class="fa fa-search text-info search_icon"></i>\n' +
             '                                                    <div class="pl-2 search_text">Typ minimaal 2 tekens om te zoeken</div>' +
             '                                                </a>\n' +
             '                                            </div>';

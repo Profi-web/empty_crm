@@ -110,10 +110,6 @@ if ($search) {
                     echo '-';
                 } ?>
             </td>
-            <td class="">
-                <!--                <i class="fad fa-exchange-alt text-purple fahover"></i>-->
-                <i class="fad fa-trash-alt text-danger fahover deleteProspect" id="<?php echo $prospect['id']; ?>"></i>
-            </td>
         </tr>
         <?php
     }

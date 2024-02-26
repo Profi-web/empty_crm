@@ -52,7 +52,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/views/dashboard/header.php';
                 <div class="container-fluid  bg-light-second py-3 rounded-bottom">
                     <div class="row p-3">
                         <div class="col-12">
-                            <div class="text-primary pb-3">Tekst</div>
+                            <div class="text-info pb-3">Tekst</div>
                             <textarea rows="35" id="input_data"></textarea>
 
                         </div>
@@ -102,7 +102,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/views/dashboard/header.php';
         </div>
     </div>
 </div>
-<div class="bottom_notes">Profi-crm versie <?php $versions = new Versions(); echo $versions->findLatest()[0]['version']; ?>
+<div class="bottom_notes">BasicCRM versie <?php $versions = new Versions(); echo $versions->findLatest()[0]['version']; ?>
     | <?php echo strftime("%e %B %Y", strtotime($versions->findLatest()[0]['date'])); ?>
     <a href="/change-log">Wat is er nieuw?</a></div>
 <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/views/dashboard/footer.php'; ?>

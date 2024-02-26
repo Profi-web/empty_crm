@@ -33,7 +33,7 @@ $loginValidate->securityCheck();
 <div class="container-fluid  bg-light-second py-3 rounded-bottom">
     <div class="row p-3">
         <div class="col-12">
-            <div class="text-primary pb-3">Informatie</div>
+            <div class="text-info pb-3">Informatie</div>
             <div class="bg-white p-3 rounded">
                 <?php echo nl2br($company->getData('info')); ?>
             </div>

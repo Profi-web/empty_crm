@@ -68,7 +68,7 @@ class Forgot
             $return_selector =  rawurlencode($selector);
             $return_authenticator = rawurlencode(base64_encode($authenticator));
 //            urlencode($selector) . ':' . urlencode(base64_encode($authenticator))
-            $this->mailer = new Mailer($this->getEmail(),'Wachtwoord vergeten','Klik op de volgende link om uw wachtwoord te veranderen: https://profi-crm.nl/wachtwoord-herstellen?key='.$return_selector . ':' . $return_authenticator);
+            $this->mailer = new Mailer($this->getEmail(),'Wachtwoord vergeten','Klik op de volgende link om uw wachtwoord te veranderen: https://basiccrm.nl/wachtwoord-herstellen?key='.$return_selector . ':' . $return_authenticator);
             if($this->mailer->send()){
                 $this->setError('Uw aanvraag is verwerkt, er is een email naar het emailadres gestuurd');
                 return true;

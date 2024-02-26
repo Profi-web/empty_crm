@@ -52,7 +52,7 @@ $loginValidate->securityCheck();
                                     <div class="rounded row bg-light p-2 relation_search_box">
                                         <div class="col-12 py-2 px-4 search_item muted">
                                             <a class="row align-items-center">
-                                                <i class="fad fa-search text-primary search_icon"></i>
+                                                <i class="fad fa-search text-info search_icon"></i>
                                                 <div class="pl-2 search_text">Typ om te zoeken</div>
                                             </a></div>
                                     </div>
@@ -94,13 +94,13 @@ $loginValidate->securityCheck();
     $('.relation_search').on("keyup input", function () {
         var defaultInput0 = '<div class="col-12 py-2 px-4 search_item muted">\n' +
             '                                                <a class="row align-items-center">\n' +
-            '                                                    <i class="fad fa-search text-primary search_icon"></i>\n' +
+            '                                                    <i class="fad fa-search text-info search_icon"></i>\n' +
             '                                                    <div class="pl-2 search_text">Typ om te zoeken</div>' +
             '                                                </a>\n' +
             '                                            </div>';
         var defaultInput1 = '<div class="col-12 py-2 px-4 search_item muted">\n' +
             '                                                <a class="row align-items-center">\n' +
-            '                                                    <i class="fad fa-search text-primary search_icon"></i>\n' +
+            '                                                    <i class="fad fa-search text-info search_icon"></i>\n' +
             '                                                    <div class="pl-2 search_text">Typ minimaal 2 tekens om te zoeken</div>' +
             '                                                </a>\n' +
             '                                            </div>';

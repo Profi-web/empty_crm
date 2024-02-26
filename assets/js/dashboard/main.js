@@ -9,13 +9,13 @@ $('.search_area').on('click', function (event) {
     $('.search_area input').on("keyup input", function () {
         var defaultInput0 = '<div class="col-12 py-2 px-4 search_item muted">\n' +
             '                                                <a class="row align-items-center">\n' +
-            '                                                    <i class="fad fa-search text-primary search_icon"></i>\n' +
+            '                                                    <i class="fad fa-search text-info search_icon"></i>\n' +
             '                                                    <div class="pl-2 search_text">Typ om te zoeken</div>' +
             '                                                </a>\n' +
             '                                            </div>';
         var defaultInput1 = '<div class="col-12 py-2 px-4 search_item muted">\n' +
             '                                                <a class="row align-items-center">\n' +
-            '                                                    <i class="fad fa-search text-primary search_icon"></i>\n' +
+            '                                                    <i class="fad fa-search text-info search_icon"></i>\n' +
             '                                                    <div class="pl-2 search_text">Typ minimaal 2 tekens om te zoeken</div>' +
             '                                                </a>\n' +
             '                                            </div>';
@@ -41,13 +41,13 @@ $('.mobile_search').on('click', function (event) {
     $('.mobile_search_area input').on("keyup input", function () {
         var defaultInput0 = '<div class="col-12 py-2 px-4 search_item muted">\n' +
             '                                                <a class="row align-items-center">\n' +
-            '                                                    <i class="fad fa-search text-primary search_icon"></i>\n' +
+            '                                                    <i class="fad fa-search text-info search_icon"></i>\n' +
             '                                                    <div class="pl-2 search_text">Typ om te zoeken</div>' +
             '                                                </a>\n' +
             '                                            </div>';
         var defaultInput1 = '<div class="col-12 py-2 px-4 search_item muted">\n' +
             '                                                <a class="row align-items-center">\n' +
-            '                                                    <i class="fad fa-search text-primary search_icon"></i>\n' +
+            '                                                    <i class="fad fa-search text-info search_icon"></i>\n' +
             '                                                    <div class="pl-2 search_text">Typ minimaal 2 tekens om te zoeken</div>' +
             '                                                </a>\n' +
             '                                            </div>';
@@ -99,12 +99,15 @@ $(window).click(function () {
     $('.search_box').hide();
     /**/
 });
-
+$('.employee_image').on('load', function(){
+    var id = $(this).data('id');
+    $('.name' + id).addClass('d-none');
+})
 $('.employee_image').hover(function () {
     var id = $(this).data('id');
     $('.name' + id).addClass('d-block');
     $('.name' + id).removeClass('d-none');
-},function () {
+}, function () {
     var id = $(this).data('id');
     $('.name' + id).removeClass('d-block');
     $('.name' + id).addClass('d-none');

@@ -15,7 +15,7 @@
           href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css"/>
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
-    <title>Profi-CRM | Client System</title>
+    <title>BasicCRM | Client System</title>
 </head>
 <?php if (!empty($gradient)) {
     if ($gradient) {

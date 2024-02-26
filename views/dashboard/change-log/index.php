@@ -105,7 +105,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/views/dashboard/header.php';
                 </div>
             </div>
             <div class="card-footer py-4 bg-white rounded-bottom">
-                <div class="bottom_notes">Profi-crm versie <?php echo $versions->findLatest()[0]['version']; ?>
+                <div class="bottom_notes">BasicCRM versie <?php echo $versions->findLatest()[0]['version']; ?>
                     | <?php echo strftime("%e %B %Y", strtotime($versions->findLatest()[0]['date'])); ?>
                     <a href="/change-log">Wat is er nieuw?</a></div>
             </div>

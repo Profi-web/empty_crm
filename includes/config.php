@@ -5,16 +5,16 @@ if ($_SERVER['HTTP_HOST'] === 'dbemtpy.basiccrm.nl') {
         'database_type' => 'mysql',
         'database_name' => 'basiccrm_main',
         'server' => 'localhost',
-        'username' => 'root',
-        'password' => ''
+        'username' => 'basiccrm_main',
+        'password' => 'hwVCjtHVJKcd53D7qZn6'
     );
 } elseif ($_SERVER['HTTP_HOST'] === 'dbemtpy.basiccrm.nl ') {
     $db = array(
         'database_type' => 'mysql',
         'database_name' => 'basiccrm_main',
         'server' => 'localhost',
-        'username' => 'root',
-        'password' => ''
+        'username' => 'basiccrm_main',
+        'password' => 'hwVCjtHVJKcd53D7qZn6'
     );
 } else {
     $db = array(

@@ -183,7 +183,7 @@ $person = new Person($id);
                                                     <div  data-uid="<?php echo $activity['id'] ?>" data-facturering="5" class="list-group-item list-group-item-action <?php if($activity['facturering'] == 5){ echo 'active';}?>">
                                                         <div class="row justify-content-between px-3">
                                                             <div>Contract</div>
-                                                            <div><i class="fad fa-file-contract text-primary"></i></div>
+                                                            <div><i class="fad fa-file-contract text-info"></i></div>
                                                         </div>
                                                     </div>
                                                 </div>

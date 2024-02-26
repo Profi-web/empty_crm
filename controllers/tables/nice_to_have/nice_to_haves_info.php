@@ -32,7 +32,7 @@ $usertheme = new User();
     <div class="row p-3">
         <div class="col-12">
             <div class="w-100 alert_field"></div>
-            <div class="text-primary pb-3">Informatie</div>
+            <div class="text-info pb-3">Informatie</div>
             <textarea rows="35" id="input_data"><?php echo nl2br($nice_to_have->getData('text')); ?></textarea>
             <div class="row justify-content-between mt-2 px-3">
                 <a class="btn btn-dark text-white rounded mr-2" id="info_back">Terug</a>

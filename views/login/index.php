@@ -13,7 +13,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/components/header.php'; ?>
                 <div class="card card-signin my-5">
                     <div class="card-body">
                         <a class="row justify-content-center" href="/">
-                            <img src="/assets/media/logo_black_blue.png" class="w-75 pt-3 pb-5" style="object-fit: contain" height="100">
+                            <img src="/assets/media/logo_black_blue.png" class="w-75 py-3" style="object-fit: contain" height="120">
                         </a>
                         <form class="form-signin needs-validation" novalidate>
                             <div class="alert_field">
@@ -46,7 +46,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/components/header.php'; ?>
                                 <input type="checkbox" class="custom-control-input" id="customCheck1" name="check" value="1">
                                 <label class="custom-control-label" for="customCheck1">Wachtwoord onthouden</label>
                             </div>
-                            <button class="btn btn-lg btn-primary btn-block" type="submit">Inloggen</button>
+                            <button class="btn btn-lg btn-info btn-block" type="submit">Inloggen</button>
                             <hr class="my-4">
 
                         </form>

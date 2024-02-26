@@ -30,7 +30,7 @@ $loginValidate->securityCheck();
 if($user->data['picture']){
     $image = $user->data['picture'];
 } else {
-    $image = 'placeholder.png';
+    $image = 'noUserProfilePicture.png';
 }
 
 ?>

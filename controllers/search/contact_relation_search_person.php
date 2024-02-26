@@ -61,7 +61,7 @@ if ($person->data) {
     ?>
     <a class="col-12 py-2 px-4 search_item muted">
         <div class="row align-items-center">
-            <i class="fad fa-ban text-primary search_icon"></i>
+            <i class="fad fa-ban text-info search_icon"></i>
             <div class="pl-2 search_text">Geen resultaten</div>
         </div>
     </a>

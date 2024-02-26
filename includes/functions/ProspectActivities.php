@@ -153,7 +153,7 @@ class ProspectActivities
                 break;
             case 5:
                 return '<i
-                            class="fad fa-file-contract text-primary"></i> Contract';
+                            class="fad fa-file-contract text-info"></i> Contract';
                 break;
         }
     }
