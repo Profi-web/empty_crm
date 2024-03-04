@@ -11,7 +11,7 @@
         crossorigin="anonymous"></script>
 <script src="/assets/js/main.js"></script>
 <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.11.2/build/alertify.min.js"></script>
-<script src="https://cdn.tiny.cloud/1/d4otpdib80e58yix012m9paqnuitil8nhef07wzaf1jt5dlx/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+<script src="https://cdn.tiny.cloud/1/tinymceapikey/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/nl.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>

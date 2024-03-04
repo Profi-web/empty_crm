@@ -1,34 +1,34 @@
 <?php
 require_once $_SERVER["DOCUMENT_ROOT"] . '/libraries/Medoo.php';
-if ($_SERVER['HTTP_HOST'] === 'dbemtpy.basiccrm.nl') {
+if ($_SERVER['HTTP_HOST'] === 'hostdb') {
     $db = array(
         'database_type' => 'mysql',
-        'database_name' => 'basiccrm_main',
+        'database_name' => 'databasedb',
         'server' => 'localhost',
-        'username' => 'basiccrm_main',
-        'password' => 'hwVCjtHVJKcd53D7qZn6'
+        'username' => 'databaseusername',
+        'password' => 'passworddatabase'
     );
-} elseif ($_SERVER['HTTP_HOST'] === 'dbemtpy.basiccrm.nl ') {
+} elseif ($_SERVER['HTTP_HOST'] === 'hostdb') {
     $db = array(
         'database_type' => 'mysql',
-        'database_name' => 'basiccrm_main',
+        'database_name' => 'databasedb',
         'server' => 'localhost',
-        'username' => 'basiccrm_main',
-        'password' => 'hwVCjtHVJKcd53D7qZn6'
+        'username' => 'databaseusername',
+        'password' => 'passworddatabase'
     );
 } else {
     $db = array(
         'database_type' => 'mysql',
-        'database_name' => 'basiccrm_main',
+        'database_name' => 'databasedb',
         'server' => 'localhost',
-        'username' => 'basiccrm_main',
-        'password' => 'hwVCjtHVJKcd53D7qZn6'
+        'username' => 'databaseusername',
+        'password' => 'passworddatabase'
     );
 }
 $host 		= 'localhost';
-$database 	= 'basiccrm_main';
-$db_user 	= 'basiccrm_main';
-$db_passw 	= 'hwVCjtHVJKcd53D7qZn6';
+$database 	= 'databasedb';
+$db_user 	= 'databaseusername';
+$db_passw 	= 'passworddatabase';
 
 error_reporting( 0 );
 
