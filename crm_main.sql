@@ -507,7 +507,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'Sil Sieljes','sil@service-ict.nl','$2y$12$eh31uJqlyC/.ZNf2FtDh5uaT1oy1lPY4NHwHT1Ip8uvEs96dugYau',523683044,'Anton Geerdesplein, 2a','7776 BD','Slagharen','Eigenaar bij Service-ICT | Profi-web |  CallProfit','0000-00-00 00:00:00',1,'2_sil_foto.jpg','',1),(2,'Daniel Pekel','daniel@service-ict.nl','$1$T8pAazO8$7t627Lw0UwznVwWVmbQYl1',523683044,'Anton Geerdesplein, 2a','7776 BD','Slagharen','Software developer bij Service-ICT | Profi-web |  CallProfit','0000-00-00 00:00:00',4,'images.jpg','',1);
+INSERT INTO `users` VALUES (1,'Sil Sieljes','administrator@basiccrm.nl','$2y$12$JgX2yVhfp2t4v3TnSIPcUu3YmP0oNA.TlvhZbo1VWnvahLT5mhdX.',523683044,'Anton Geerdesplein, 2a','7776 BD','Slagharen','Eigenaar bij Service-ICT | Profi-web |  CallProfit','0000-00-00 00:00:00',1,'2_sil_foto.jpg','',1);
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
